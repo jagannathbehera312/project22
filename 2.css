@@ -1,0 +1,143 @@
+*{
+    margin-right: 0px;
+}
+#navbar{
+    display: flex;
+    flex-direction: wrap;
+    width: inherit;
+    
+}
+#navbar ul li{
+    display: flex;
+    padding: 2px;
+    text-align: center;
+}
+
+
+
+#obj{
+    
+    flex-direction: column;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+
+.obj2{
+    
+    flex-direction: column;
+}
+
+.obj2 .box2{
+
+    width:80%;
+    margin:19px auto;
+    padding: 4px;
+}
+
+#navbar ul li a{
+
+    font-size: 10px;
+    padding: 3.5px;
+    margin: 2px;
+}
+
+
+#home p {
+    
+    text-align: justify;
+    font-size: 0.8rem;
+    width: 100%;
+}
+.rom {
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+#home {
+    
+    padding: 1px 42px;
+}
+
+#logo img {
+    height: 40px;
+    padding-left: 40px;
+    margin-top: 13px;
+}
+
+#logo2 img {
+    height: 40px;
+    margin-top: 15px;
+  
+}
+#obj .box img {
+    height: 145px;
+margin: auto;
+display: block;
+width: -webkit-fill-available;
+padding: 17px;
+border-radius: 38px;
+}
+#obj .box {
+    width:80%;
+margin:19px auto;
+padding: 4px;
+    
+}
+
+.objectives2 h1 {
+    font-size: 35px;
+}
+
+.obj2 .box2 img {
+    height: 145px;
+    margin: auto;
+    display: block;
+    width: -webkit-fill-available;
+    padding: 17px;
+    border-radius: 38px;
+}
+
+.objectives::after{
+
+    content: "";
+    background-image: none;
+}
+
+.objectives2 {
+    margin: 200px auto;
+    width: 100%;
+}
+
+.obj2 {
+    margin: 0px;
+}
+
+.obj2 .box2 {
+    margin: 10px auto;
+}
+
+
+
+
+.objectives h1 {
+    text-align: center;
+    font-size: 31px;
+}
+
+.objectives2 h1 {
+    text-align: center;
+    font-size: 31px;
+}
+
+#home::before {
+    height: 100%;
+}
+
+.box h2,p{
+    font-size: small;
+}
+
+.box2 h2,p{
+    font-size: small;
+}
